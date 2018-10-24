@@ -1,6 +1,8 @@
 (function ($) {
     'use strict';
-
+    $('#telefone').mask('(00) 0000-0000');
+    $('#cep').mask('00000-000');
+  
     
     if ($.fn.owlCarousel) {
         // :: 1.0 Welcome Post Slider Active Code
